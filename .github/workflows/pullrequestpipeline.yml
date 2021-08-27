@@ -25,12 +25,8 @@ jobs:
         id: atf_test_dev
         uses: ServiceNow/sncicd-tests-run@1.0.0
         with:
-          browserName:
-          browserVersion:
-          osName:
-          osVersion:
           testSuiteSysId: ${{ secrets.TEST_SUITE_ID }}
-          testSuiteName:
+         
         env:
           snowUsername: ${{ secrets.NOW_USERNAME }}
           snowPassword: ${{ secrets.NOW_PASSWORD }}
