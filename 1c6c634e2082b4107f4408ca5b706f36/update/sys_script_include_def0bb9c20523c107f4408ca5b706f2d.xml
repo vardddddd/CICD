@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_cicd_demoapp.Feature_04321</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Feature_04321</name>
+        <script><![CDATA[var Feature_04321 = Class.create();
+Feature_04321.prototype = {
+    initialize: function() {
+    },
+ //feature 04321
+    type: 'Feature_04321'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-27 08:05:04</sys_created_on>
+        <sys_id>def0bb9c20523c107f4408ca5b706f2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Feature_04321</sys_name>
+        <sys_package display_value="CICD DemoApp" source="x_snc_cicd_demoapp">1c6c634e2082b4107f4408ca5b706f36</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD DemoApp">1c6c634e2082b4107f4408ca5b706f36</sys_scope>
+        <sys_update_name>sys_script_include_def0bb9c20523c107f4408ca5b706f2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-27 08:05:04</sys_updated_on>
+    </sys_script_include>
+</record_update>
